@@ -25,7 +25,7 @@ echo -e "\n$ansi_art\n"
 sudo pacman -Syu --noconfirm --needed git
 
 # Use custom repo if specified, otherwise default to your arch-mechanicus fork
-MECHANICUS_REPO="${MECHANICUS_REPO:-jvgferreira/arch-mechanicus}"
+MECHANICUS_REPO="${MECHANICUS_REPO:-jvgferreira0/arch-mechanicus}"
 
 echo -e "\nCloning arch-mechanicus from: https://github.com/${MECHANICUS_REPO}.git"
 rm -rf ~/.local/share/mechanicus/
