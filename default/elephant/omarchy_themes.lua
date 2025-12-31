@@ -1,13 +1,13 @@
 --
--- Dynamic Omarchy Theme Menu for Elephant/Walker
+-- Dynamic Mechanicus Theme Menu for Elephant/Walker
 --
-Name = "omarchythemes"
-NamePretty = "Omarchy Themes"
+Name = "mechanicusthemes"
+NamePretty = "Mechanicus Themes"
 
 -- The main function elephant will call
 function GetEntries()
   local entries = {}
-  local theme_dir = os.getenv("HOME") .. "/.config/omarchy/themes"
+  local theme_dir = os.getenv("HOME") .. "/.config/mechanicus/themes"
 
   -- First, get all theme directories
   local find_dirs_cmd = "find -L '" .. theme_dir .. "' -mindepth 1 -maxdepth 1 -type d 2>/dev/null"
@@ -57,7 +57,7 @@ function GetEntries()
           Preview = preview_path,
           PreviewType = "file",
           Actions = {
-            activate = "omarchy-theme-set " .. theme_name,
+            activate = "mechanicus-theme-set " .. theme_name,
           },
         })
       end

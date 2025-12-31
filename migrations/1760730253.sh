@@ -1,3 +1,3 @@
-echo "Install Aether for Omarchy theme creation"
+echo "Install Aether for Mechanicus theme creation"
 
-omarchy-pkg-add aether
+mechanicus-pkg-add aether

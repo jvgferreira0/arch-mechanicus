@@ -1,6 +1,6 @@
-echo "Update fastfetch config with new Omarchy logo"
+echo "Update fastfetch config with new Mechanicus logo"
 
-omarchy-refresh-config fastfetch/config.jsonc
+mechanicus-refresh-config fastfetch/config.jsonc
 
-mkdir -p ~/.config/omarchy/branding
-cp $OMARCHY_PATH/icon.txt ~/.config/omarchy/branding/about.txt
+mkdir -p ~/.config/mechanicus/branding
+cp $MECHANICUS_PATH/icon.txt ~/.config/mechanicus/branding/about.txt

@@ -1,6 +1,6 @@
 echo "Start screensaver automatically after 1 minute and stop before locking"
 
-if ! grep -q "omarchy-launch-screensaver" ~/.config/hypr/hypridle.conf; then
-  omarchy-refresh-hypridle
-  omarchy-refresh-hyprlock
+if ! grep -q "mechanicus-launch-screensaver" ~/.config/hypr/hypridle.conf; then
+  mechanicus-refresh-hypridle
+  mechanicus-refresh-hyprlock
 fi

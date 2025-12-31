@@ -3,16 +3,16 @@
 # Exit immediately if a command exits with a non-zero status
 set -eEo pipefail
 
-# Define Omarchy locations
-export OMARCHY_PATH="$HOME/.local/share/omarchy"
-export OMARCHY_INSTALL="$OMARCHY_PATH/install"
-export OMARCHY_INSTALL_LOG_FILE="/var/log/omarchy-install.log"
-export PATH="$OMARCHY_PATH/bin:$PATH"
+# Define Mechanicus locations
+export MECHANICUS_PATH="$HOME/.local/share/mechanicus"
+export MECHANICUS_INSTALL="$MECHANICUS_PATH/install"
+export MECHANICUS_INSTALL_LOG_FILE="/var/log/mechanicus-install.log"
+export PATH="$MECHANICUS_PATH/bin:$PATH"
 
 # Install
-source "$OMARCHY_INSTALL/helpers/all.sh"
-source "$OMARCHY_INSTALL/preflight/all.sh"
-source "$OMARCHY_INSTALL/packaging/all.sh"
-source "$OMARCHY_INSTALL/config/all.sh"
-source "$OMARCHY_INSTALL/login/all.sh"
-source "$OMARCHY_INSTALL/post-install/all.sh"
+source "$MECHANICUS_INSTALL/helpers/all.sh"
+source "$MECHANICUS_INSTALL/preflight/all.sh"
+source "$MECHANICUS_INSTALL/packaging/all.sh"
+source "$MECHANICUS_INSTALL/config/all.sh"
+source "$MECHANICUS_INSTALL/login/all.sh"
+source "$MECHANICUS_INSTALL/post-install/all.sh"

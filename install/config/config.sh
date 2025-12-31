@@ -1,6 +1,6 @@
-# Copy over Omarchy configs
+# Copy over Mechanicus configs
 mkdir -p ~/.config
-cp -R ~/.local/share/omarchy/config/* ~/.config/
+cp -R ~/.local/share/mechanicus/config/* ~/.config/
 
-# Use default bashrc from Omarchy
-cp ~/.local/share/omarchy/default/bashrc ~/.bashrc
+# Use default bashrc from Mechanicus
+cp ~/.local/share/mechanicus/default/bashrc ~/.bashrc

@@ -1,4 +1,4 @@
 echo "Add LocalSend as new default application"
 
-omarchy-pkg-drop localsend-bin
-omarchy-pkg-add localsend
+mechanicus-pkg-drop localsend-bin
+mechanicus-pkg-add localsend
